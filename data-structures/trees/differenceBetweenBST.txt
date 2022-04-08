@@ -1,0 +1,22 @@
+Difference Between Binary Search Tree And Binary Tree
+
+    A tree whose elements have at most 2 children is called a binary tree.
+
+Binary Tree Data Structure 
+
+    A tree whose elements have at most 2 children is called a binary tree. Since each element in a binary tree can have only 2 children, we typically name them the left and right child. 
+
+
+Binary Search Tree Data Structure 
+
+    The left subtree of a node contains only nodes with keys lesser than the node's key.
+
+    The right subtree of a node contains only nodes with keys greater than the node's keys.
+    
+    The left and right subtree each must also be a binary search tree.
+
+    There must be no duplicate nodes.
+
+
+
+
