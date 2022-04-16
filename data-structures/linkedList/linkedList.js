@@ -1,5 +1,5 @@
 import { log } from "../../util/util.js";
-
+import { reverse } from "./reverseLinkedList.js";
 /*
    
         1) Dynamic size
@@ -34,9 +34,7 @@ export class Node {
   }
 }
 
-let head = null;
-
-head = new Node(1);
+let head = new Node(1);
 let second = new Node(2);
 let third = new Node(3);
 let forth = new Node(4);
@@ -54,4 +52,17 @@ while (next) {
   let currentNode = next;
   console.log("currentNode.data:  ", currentNode.data);
   next = currentNode.next;
+}
+
+const reversedLinkedList = reverse(head);
+
+printNodes(reversedLinkedList);
+
+function printNodes(node) {
+  let currentNode = node;
+
+  while (currentNode) {
+    console.log("current node val is : ", currentNode.data);
+    currentNode = currentNode.next;
+  }
 }
