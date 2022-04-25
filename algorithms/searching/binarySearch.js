@@ -1,4 +1,5 @@
 // Time complexity : O(logn)
+// Best case : O(1) when the central index would directly match the desired value.
 
 const arr = [-2, 3, 4, 7, 8, 9, 11, 13];
 

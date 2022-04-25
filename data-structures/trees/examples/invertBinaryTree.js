@@ -16,7 +16,7 @@ console.log(invertTree(root));
 
 /*
        4
-     /   
+     /   \
     2     7
    / \   / \
   1   3 6   9
