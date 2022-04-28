@@ -1,5 +1,14 @@
 /*
+  Time complexity: 
+    Worst: n*log(n)
+    Average: n*log(n)
+    Best: n*log(n)
+  
+    Space complexity: n
 
+*/
+
+/*
 Merge sort is sorting algorithm that uses "divide and conquer" concept. Values of the array must be divided to halves until there is only one element of each array. Then, compares the values and merge them. If 2 branch is sorted, compare them and merge.
 
 To implement merge sort, 2 functions are needed which are merge and sort.
